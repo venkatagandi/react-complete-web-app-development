@@ -4,7 +4,7 @@ This is a sample handson app from the udemy course which i got subscribed to, co
 ###### Basic react component
 ###### Display the component
 
-[learning JSX] (./docs/learning-jsx.md)
+[learning JSX] (../docs/learning-jsx.md)
 
 To access it
 ```javascript
