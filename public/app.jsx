@@ -1,18 +1,16 @@
 var Greeter = React.createClass({
     render() {
+        var name = this.props.name;
         return (
-            React.createElement('h1',null,'hello react.createelement')
-        )
-        /*return (
             <div>
-                <h1>Hello React!</h1>
+                <h1>Hello {name}!</h1>
                 <p>This is from a component</p>
             </div>
-        );*/
+        );
     }
 });
 
 ReactDOM.render(
-            <Greeter/>,
+            <Greeter name="ven"/>,
             document.getElementById('app')
 );
