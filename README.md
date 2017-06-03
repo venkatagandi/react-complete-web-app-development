@@ -14,7 +14,7 @@ This is a sample handson app from a course which I got subscribed to, that inclu
 
 [Component States](docs/COMPONENT-STATES.md)
 
-[Nested Components](docs/NESTED-COMPONENTS-1.md)
+[Nested Components-1](docs/NESTED-COMPONENTS-1.md)
 
 To access it
 ```javascript
