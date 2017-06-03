@@ -12,6 +12,10 @@ This is a sample handson app from the udemy course which i got subscribed to, co
 
 [Component States](docs/COMPONENT-STATES.md)
 
+[Nested Components](docs/NESTED-COMPONENTS-1.md)
+
+
+
 
 EVENTS-CALLBACKS.md
 
