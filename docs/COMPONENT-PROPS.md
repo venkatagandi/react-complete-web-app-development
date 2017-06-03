@@ -47,5 +47,13 @@ then we should be able to print some default value in our component, we do this 
 ```
 This will take precendence and overrirde default respective props property value in the component.
 
+ #### Passing external variables to Default Prop Values
 
+ We can move one step ahead and pass the external variables too utilizing the jsx expressions like
+
+ ``` javascript
+    var firstName = "Ven";
+    <Greeter name={firstName}/>
+ ```
+ This prints Hello Ven! as output in the screen.
 
