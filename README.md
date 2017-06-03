@@ -1,8 +1,8 @@
 # Sample React App
 
 This is a sample handson app from the udemy course which i got subscribed to, containing
-> Basic react component
-> Display the component
+###### Basic react component
+###### Display the component
 
 To access it
 ```javascript
