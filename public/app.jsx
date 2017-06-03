@@ -12,6 +12,10 @@ var Greeter = React.createClass({
             <div>
                 <h1>Hello {name}!</h1>
                 <p>{message + '!!'}</p>
+                <form>
+                    <input type="text" ref="name" />
+                    <button>Set Name</button>
+                </form>
             </div>
         );
     }
