@@ -16,11 +16,6 @@ This is a sample handson app from a course which I got subscribed to, that inclu
 
 [Nested Components](docs/NESTED-COMPONENTS-1.md)
 
-
-
-
-EVENTS-CALLBACKS.md
-
 To access it
 ```javascript
      git clone <your forked repo>
