@@ -12,4 +12,4 @@ In the above we take a text input and using
  ref
 
  ```
- keyword of react we bridge the connection between inputs to the inner react layers.
+ keyword of react, we bridge the connection between inputs to the inner react layers.
