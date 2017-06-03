@@ -1,10 +1,12 @@
 # Sample React App
 
-This is a sample handson app from the udemy course which i got subscribed to, containing
+This is a sample handson app from a course which I got subscribed to, that includes
+
 ###### Basic react component
+
 ###### Display the component
 
-[learning JSX](docs/LEARN-JSX.md)
+[Learning JSX](docs/LEARN-JSX.md)
 
 [Component Properties/Props](docs/COMPONENT-PROPS.md)
 
