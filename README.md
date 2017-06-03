@@ -5,6 +5,7 @@ This is a sample handson app from the udemy course which i got subscribed to, co
 ###### Display the component
 
 [learning JSX](docs/LEARN-JSX.md)
+
 [Component Properties/Props](docs/COMPONENT-PROPS.md)
 
 To access it
