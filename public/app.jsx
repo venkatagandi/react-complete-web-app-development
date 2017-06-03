@@ -1,4 +1,9 @@
 var Greeter = React.createClass({
+    getDefaultProps() {
+        return {
+            name: 'React'
+        }
+    },
     render() {
         var name = this.props.name;
         return (

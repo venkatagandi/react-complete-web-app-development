@@ -15,3 +15,37 @@ and then inside render function of our component, we use data down props as this
             </div>
         );
  ```
+ #### Default Prop Values
+
+ suppose we donot provide any props
+ ```javascript
+<Greeter />
+```
+then we should be able to print some default value in our component, we do this by overriding an inbuilt method getDefaultProps() that is similar to render() method.
+
+*** getDefaultProps() returns an object of properties that this.props sets to ****
+
+ ```javascript
+    getDefaultProps() {
+      return {
+        name: 'React'
+      }
+    },
+    render() {
+        var name = this.props.name;
+        return (
+            <div>
+                <h1>Hello {name}!</h1>
+                <p>This is from a component</p>
+            </div>
+        );
+    }
+ ```
+ suppose if we pass value
+ ```javascript
+<Greeter name="Ven"/>
+```
+This will take precendence and overrirde default respective props property value in the component.
+
+
+
