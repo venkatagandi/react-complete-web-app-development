@@ -10,6 +10,9 @@ This is a sample handson app from the udemy course which i got subscribed to, co
 
 [Events and Callbacks](docs/EVENTS-CALLBACKS.md)
 
+[Component States](docs/COMPONENT-STATES.md)
+
+
 EVENTS-CALLBACKS.md
 
 To access it
