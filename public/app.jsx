@@ -2,7 +2,7 @@ var Greeter = React.createClass({
     getDefaultProps() {
         return {
             name: 'React',
-            message:'This if from the component'
+            message:'This if from the default message'
         }
     },
     render() {
