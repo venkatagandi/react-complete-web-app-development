@@ -4,3 +4,10 @@ So we will seggregate out code into multiple components as
 - main component
 - greeter message component to display the messages.
 - greeter form component for the data entry of new messages into the system.
+
+### GreeterMessage Component
+```javascript
+    var GreeterMessage =  React.createClass({
+
+    });
+```

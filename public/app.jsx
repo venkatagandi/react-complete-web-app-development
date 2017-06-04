@@ -1,3 +1,7 @@
+var GreeterMessage =  React.createClass({
+
+});
+
 var Greeter = React.createClass({
     getDefaultProps() {
         return {
