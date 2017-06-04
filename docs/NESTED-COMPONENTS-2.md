@@ -88,10 +88,11 @@ As mentioned in [Nested Component-1](NESTED-COMPONENTS-1.md) , the components in
             }
     });
  ```
- so we pass the handleNewInfo function through props from container component to the representational component.
- This inturn will be called back through props , like in the above example
+ so we pass the container component function through props  to the representational component.
 
- this.handleNewInfo - belongs to master component which is being passed to the prop of GreeterFrom ( here the prop is onNewName)
+ As stated in the above example,
+
+ this.handleNewInfo - which belongs to master component  is passed to the prop of GreeterFrom ( here the prop is onNewName)
 
 Then from the GreeterForm component we call the this.onNewName(name,message)
 
