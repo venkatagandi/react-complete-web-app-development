@@ -1,4 +1,4 @@
-As mentioned in [Nested Component-1](docs/NESTED-COMPONENTS-1.md) , the components in the app are seggregated into
+As mentioned in [Nested Component-1](NESTED-COMPONENTS-1.md) , the components in the app are seggregated into
 
 
 ##### Stateless / Presentational Component
