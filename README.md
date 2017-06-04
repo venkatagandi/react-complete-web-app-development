@@ -18,7 +18,7 @@ This is a sample handson app from a course which I got subscribed to, that inclu
 
 [Nested Components-2](docs/NESTED-COMPONENTS-2.md)
 
-[Some GotChas](docs/GOTCHAS.md)
+[Some GotCha](docs/GOTCHAS.md)
 
 
 To access it
