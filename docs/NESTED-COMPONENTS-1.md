@@ -15,3 +15,37 @@ So we will seggregate out code into multiple components as
         }
     });
 ```
+***Inside the main component***
+```javascript
+         render() {
+        var name = this.state.name;
+        var message = this.state.message;
+        return (
+            <div>
+                <GreeterMessage/>
+                <form onSubmit={this.onButtonClick}>
+                    <input type="text" ref="name" />
+                    <input type="text" ref="message" />
+                    <button>Set Name</button>
+                </form>
+            </div>
+        );
+    }
+```
+### greeter form component
+
+We componentize greeter form in the below way.
+
+```javascript
+        var GreeterForm =  React.createClass({
+            render() {
+                return (
+                    <form>
+                        <input type="text" ref="name" />
+                        <input type="text" ref="message" />
+                        <button>Set Name</button>
+                    </form>
+                );
+            }
+});
+```

@@ -9,6 +9,18 @@ var GreeterMessage =  React.createClass({
     }
 });
 
+var GreeterForm =  React.createClass({
+    render() {
+        return (
+            <form>
+                <input type="text" ref="name" />
+                <input type="text" ref="message" />
+                <button>Set Name</button>
+            </form>
+        );
+    }
+});
+
 var Greeter = React.createClass({
     getDefaultProps() {
         return {
@@ -25,34 +37,18 @@ var Greeter = React.createClass({
     onButtonClick(e) {
         //not to allow browser for full refresh
         e.preventDefault();
-        //this.refs.name is an html node
-        //to get the value of it
-        //this.refs.name.value
-        // var nameRef = this.refs.name;
-        // var messageRef = this.refs.message;
-        // var name = nameRef.value;
-        // var message = messageRef.value;
-        // if(typeof name === 'string' && name.length>0 ) {
-        //             this.setState({
-        //                 name: name
-        //              })
-        // }
-        // if(typeof message === 'string' && message.length>0) {
-        //              this.setState({
-        //                 message: message
-        //              })
-        // }
+
         var {name,message} = this.refs;
 
         if(typeof name.value === 'string' && name.value.length>0 ) {
-                    this.setState({
-                        name: name.value
-                     })
+            this.setState({
+                name: name.value
+            })
         }
         if(typeof message.value === 'string' && message.value.length>0) {
-                     this.setState({
-                        message: message.value
-                     })
+            this.setState({
+                message: message.value
+            })
         }
 
 
@@ -67,11 +63,13 @@ var Greeter = React.createClass({
             <div>
                 <h1>Hello {name}!</h1>
                 <p>{message + '!!'}</p>
+                <GreeterMessage/>
                 <form onSubmit={this.onButtonClick}>
                     <input type="text" ref="name" />
                     <input type="text" ref="message" />
                     <button>Set Name</button>
                 </form>
+                <GreeterForm/>
             </div>
         );
     }
