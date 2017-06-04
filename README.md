@@ -20,6 +20,8 @@ This is a sample handson app from a course which I got subscribed to, that inclu
 
 [Some GotCha](docs/GOTCHAS.md)
 
+[Better React Project-1](docs/BETTER-REACT-PROJECT-1.md)
+
 
 To access it
 ```javascript
