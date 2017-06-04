@@ -1,0 +1,3 @@
+- In react updation of states is allowed whereas not props.
+- Always container component should not have big changes and there should be merely holding child components and addressing any actions up scenarios.
+- There should be only one root element for entire module.
