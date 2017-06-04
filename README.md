@@ -22,6 +22,8 @@ This is a sample handson app from a course which I got subscribed to, that inclu
 
 [Better React Project-1](docs/BETTER-REACT-PROJECT-1.md)
 
+[Better React Project-2](docs/BETTER-REACT-PROJECT-2.md)
+
 
 To access it
 ```javascript
