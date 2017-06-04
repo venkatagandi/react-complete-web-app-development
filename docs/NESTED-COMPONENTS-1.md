@@ -8,6 +8,10 @@ So we will seggregate out code into multiple components as
 ### GreeterMessage Component
 ```javascript
     var GreeterMessage =  React.createClass({
-
+        render() {
+            return (
+                // whatever virtual dom we wanted to display
+            );
+        }
     });
 ```

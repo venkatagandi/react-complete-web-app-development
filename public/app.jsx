@@ -1,5 +1,12 @@
 var GreeterMessage =  React.createClass({
-
+    render() {
+        return(
+            <div>
+                <h1>Some H1</h1>
+                <p>Some P</p>
+            </div>
+        )
+    }
 });
 
 var Greeter = React.createClass({
