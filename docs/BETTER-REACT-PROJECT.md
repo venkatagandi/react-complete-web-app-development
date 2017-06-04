@@ -1,5 +1,5 @@
-Till now we were normally referring to the react and babel script dependencies manually.
+Till date we were normally referring to the react and babel scripts.
 
-But in an ideal production application we rely on npm packages for better usability.
+But in an ideal production scenario we rely on npm packages for better usability.
 
-We address that in this module.
+Let's address it now.
