@@ -16,6 +16,9 @@ This is a sample handson app from a course which I got subscribed to, that inclu
 
 [Nested Components-1](docs/NESTED-COMPONENTS-1.md)
 
+[Nested Components-2](docs/NESTED-COMPONENTS-2.md)
+
+
 To access it
 ```javascript
      git clone <your forked repo>
